@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- header -->
+    <div id="head">
+    <div>
+      <a href="./index.html"><img src="images/logo.png" alt="loi hinh" width="80" height="60" style="float: left;"></a>
+    </div>
+    <div id="login">
+      <i class="far fa-id-card"></i><a href="dangky.html">Đăng ký</a>
+      <i class="fas fa-key"></i><a href="dangnhap.html">Đăng nhập</a>
+      <i class="fas fa-user"></i>
+    </div>
+    <div>
+        <form style="padding: 18px 0px 0px 150px;">
+        <input type="text" class="box" placeholder="Tìm kiếm trong kho sách...">
+        </form>
+    </div>
+    </div>
+
+    <!-- menu ngang -->
+    <div id="menungang">
+        <ul>
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li>
+            <a href="#">SÁCH ĐIỆN TỬ</a>
+            <ul class="submenu">
+                <li><a href="#">Subitem1</a></li>
+                <li><a href="#">Subitem2</a></li>
+                <li><a href="#">Subitem3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">SÁCH NÓI</a>
+            <ul class="submenu">
+            <li><a href="#">Subitem1</a></li>
+            <li><a href="#">Subitem2</a></li>
+            <li><a href="#">Subitem3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">TRUYỆN TRANH</a>
+            <ul class="submenu">
+                <li><a href="#">Subitem1</a></li>
+                <li><a href="#">Subitem2</a></li>
+                <li><a href="#">Subitem3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">VIDEO BOOK</a>
+            <ul class="submenu">
+                <li><a href="#">Subitem1</a></li>
+                <li><a href="#">Subitem2</a></li>
+                <li><a href="#">Subitem3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">TIN TỨC</a></li>
+        <li><a href="#">THƯ VIỆN</a></li>
+        </ul>
+    </div>
+</head>
+<body>
+    <!-- Noidung -->
+    <div>
+      <div id="dangky">
+        <form action="dangnhap.html">
+            <div>
+                <h1>Đăng ký</h1>
+                <input type="text" placeholder="Nhập Họ Tên" class="box" required>
+                <br>
+                <input type="text" placeholder="Nhập email" class="box" required>
+                <br>
+                <input type="password" placeholder="Nhập mật khẩu" class="box" required>
+                <br>
+                <input type="password" placeholder="Nhập lại mật khẩu" class="box" required>
+                
+                
+                <p><input type="checkbox" style="display: inline;">Đồng ý với chính sách <a href="#">Riêng tư & bảo mật</a><a> của chúng tôi</a></p>
+                <button type="submit" class="nut" style="width:300px">Đăng ký</button>
+                <p>Hoặc đăng nhập nhanh bằng</p>
+                <div style="display: inline;">
+                  <button type="submit" class="nut" style="background-color: #4267B2;"><i class="fab fa-facebook-f"></i> Facebook</button>
+                  <button type="submit" class="nut" style="background-color: #DB4437;"><i class="fab fa-google"></i> Google</button>
+                </div>
+            </div>
+            <div>
+                <p>Đã có tài khoản? <a href="dangnhap.html">Đăng nhập</a></p>
+            </div>
+        </form>
+    </div>
+    </div>
+    <hr>
+</body>
+<footer>
+  <!-- footer -->
+  <div class="footblock">
+    <div class="foothang">
+      <div class="footcot">
+        <h3>Công ty</h3>
+        <ul>
+          <li><a href="#">Về chúng tôi</a></li>
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Điều khoản</a></li>
+          <li><a href="#">Chương trình liên kết</a></li>
+        </ul>
+      </div>
+      <div class="footcot">
+        <h3>Trợ giúp</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Giao hàng</a></li>
+          <li><a href="#">Đổi trả</a></li>
+          <li><a href="#">Chăm sóc khách hàng</a></li>
+          <li><a href="#">Phương thức thanh toán</a></li>
+        </ul>
+      </div>
+      <div class="footcot">
+        <h3>Liên kết</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div id="footcopyright">
+        <img src="images/logo.png" alt="loi hinh" width="80" height="60" style="float: left;">
+        <span style="padding-left: 10px; color: #42454f;">sachdom.vn</span>
+        <p style="padding-left: 85px;">Copyright © 2014 Lemonmedia</p>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+</html>
